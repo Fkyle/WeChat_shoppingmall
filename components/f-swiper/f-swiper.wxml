@@ -1,0 +1,15 @@
+<!--components/f-swiper/f-swiper.wxml-->
+<swiper class="swiper"
+        circular
+        indicator-dots
+        indicator-active-color="#ff5777"
+        autoplay
+        interval="2000"
+        duration="300">
+  <block wx:for="{{swiperList}}" wx:key="{{index}}">
+    <swiper-item class='swiper-item'>
+      <image mode="widthFix" wx:if='{{item.image}}' src="{{item.image}}"/>
+      <image mode='aspectFit' wx:if="{{!item.image}}" src="{{item}}"/>
+    </swiper-item>
+  </block>
+</swiper>

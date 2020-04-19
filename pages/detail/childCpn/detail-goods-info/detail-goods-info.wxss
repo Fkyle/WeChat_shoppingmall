@@ -1,0 +1,45 @@
+/* pages/detail/childCpn/detail-goods-info/detail-goods-info.wxss */
+#goods-info{
+  padding:40rpx 0
+}
+.info-desc{
+  padding:0 30rpx;
+}
+.info-desc .start,
+.info-desc .end{
+  width: 180rpx;
+  height: 2rpx;
+  background-color: #a3a3a5;
+  position: relative;
+}
+.info-desc .start{
+  float: left;
+}
+.info-desc .end{
+  float: right;
+}
+.info-desc .start::before,
+.info-desc .end::after{
+  content: '';
+  position: absolute;
+  width: 10rpx;
+  height: 10rpx;
+  background-color: #333;
+  bottom: 0;
+}
+.info-desc .end::after{
+  right: 0;
+}
+.info-desc .content{
+  padding: 30rpx 0;
+  font-size: 28rpx;
+}
+.info-key{
+  margin: 20rpx 0 20rpx 30rpx;
+  color: #333;
+  font-size: 30rpx;
+  color: #ff5777;
+}
+.info-list image{
+  width: 100%;
+}

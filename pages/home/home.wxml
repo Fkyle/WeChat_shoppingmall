@@ -1,0 +1,25 @@
+<!--pages/home/home.wxml-->
+<!-- 轮播图展示 -->
+<f-swiper swiperList="{{banners}}" />
+<!-- 推荐展示 -->
+<f-recommend recommendList="{{recommends}}" 
+             bind:imageLoad='handleImageLoad'/>
+<!-- 本周流行展示 -->
+<view>
+	<image src="/assets/home/popular_bg.jpg" style="width:100%" mode="widthFix"></image>
+</view>
+<!-- tab-control展示 -->
+<f-tab-control  titles="{{titles}}" 
+                bind:tabclick='handleTabClick' 
+                id='tab-control'
+                class="{{isFixed ? 'fixed' : ''}}" />
+<f-tab-control titles="{{titles}}" wx:if="{{isFixed}}"/>
+<!-- 商品数据展示 -->
+<view class="goods"> 
+  <block wx:for="{{goods[currentType].list}}">
+    <f-goods-item class="goods-item" 
+                  goodItem="{{item}}" />
+  </block>
+</view>
+<!-- 回到顶部 hidden属性不支持自定义组件 -->
+<f-back-top wx:if="{{showBackTop}}"/>

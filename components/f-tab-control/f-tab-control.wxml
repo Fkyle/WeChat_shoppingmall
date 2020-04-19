@@ -1,0 +1,11 @@
+<!--components/f-tab-control/f-tab-control.wxml-->
+<view class="tab-control">
+  <block wx:for="{{titles}}" wx:key="{{index}}">
+    <view class="tab-item {{index == currentIndex ? 'active' : ''}}"
+          bind:tap='itemClick' 
+          data-index="{{index}}">
+          <!-- data-index设置添加event属性 -->
+      <text>{{item}}</text>
+    </view>
+  </block>
+</view>

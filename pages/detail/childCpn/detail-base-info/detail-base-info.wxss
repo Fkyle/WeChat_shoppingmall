@@ -1,0 +1,59 @@
+/* pages/detail/childCpn/detail-base-info/detail-base-info.wxss */
+#base-info{
+  margin-top: 40rpx;
+  padding:0 30rpx;
+  color:#999;
+  border-bottom: 12rpx solid #f2f5f8;
+}
+.info-title{
+  color: #000;
+  font-size: 36rpx;
+  margin:20rpx;
+  font-weight: bolder;
+}
+.info-price{
+  margin:16rpx 16rpx 40rpx;
+}
+.n-price{
+  color:#ff5777;
+  font-size: 48rpx;
+  padding-right: 10rpx;
+}
+.o-price{
+  font-size: 32rpx;
+  font-weight: bold;
+  text-decoration-line: line-through;
+  padding-right: 10rpx;
+}
+.discount{
+  background-color: #e23152;
+  color:#fff;
+  position: relative;
+  border-radius: 90rpx;
+  top: -8rpx;
+  font-size: 26rpx;
+  padding:6rpx;
+}
+.info-other{
+  display: flex;
+  justify-content: space-between;
+  font-size: 32rpx;
+  margin-bottom: 16rpx;
+  line-height: 60rpx;
+  border-bottom: 3rpx dashed #ccc;
+}
+.info-services{
+  display: flex;
+  justify-content: space-between;
+  line-height: 120rpx;
+}
+.services-img{
+  width: 26rpx;
+  height: 26rpx;
+  position: relative;
+  top: 4rpx;
+}
+.services-text{
+  font-size: 26rpx;
+  color:#333;
+}

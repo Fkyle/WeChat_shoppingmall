@@ -1,0 +1,79 @@
+/* pages/detail/childCpn/detail-shop-info/detail-shop-info.wxss */
+#shop-info{
+  margin-top: 36rpx;
+  padding:0 16rpx;
+}
+.shop-top{
+  line-height: 90rpx;
+  display: flex;
+  align-items: center;
+}
+.shop-top image{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  border:2rpx solid rgba(0, 0, 0, 0.1)
+}
+.shop-top text{
+  margin-left: 30rpx;
+}
+.shop-middle{
+  margin-top: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.shop-middle-item{
+  flex:1
+}
+.shop-middle-left{
+  display: flex;
+  justify-content: space-evenly;
+  color:#333;
+  text-align: center;
+  border-right: 2rpx solid rgba(0, 0, 0, 0.1);
+}
+.sells-count,.goods-count{
+  font-size: 36rpx;
+}
+.sells-text,.goods-text{
+  font-size: 26rpx;
+  padding-top:16rpx;
+  color: #333;
+}
+.shop-middle-right{
+  margin-left: 60rpx;
+  font-size: 36rpx;
+  color: #333;
+}
+.shop-td{
+  display: flex;
+  justify-content: space-around;
+  padding: 6rpx 0;
+}
+.score{
+  color: #5ea732;
+}
+.score-better{
+  color: #f13e3a;
+}
+.better text{
+  background-color: #5ea732;
+  color: #fff;
+}
+.better-more text{
+  background-color: #f13e3a;
+}
+.shop-bottom{
+  margin-top: 40rpx;
+  text-align: center;
+}
+.enter-shop{
+  display: inline-block;
+  width: 400rpx;
+  height: 60rpx;
+  background-color: #f2f5f8;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 60rpx;
+  border-radius: 20rpx;
+}

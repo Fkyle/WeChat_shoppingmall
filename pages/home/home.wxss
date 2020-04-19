@@ -1,0 +1,18 @@
+/* pages/home/home.wxss */
+.goods{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.goods-item{
+  width:48%;
+  position:relative;
+  padding-bottom: 80rpx;
+}
+.fixed{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}

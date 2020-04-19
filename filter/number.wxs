@@ -1,0 +1,12 @@
+var fixNum = function(num){
+  if(num <= 10000) return num
+  return (num/10000).toFixed(1)+'万'
+}
+var twoLeftNum = function(num){
+  if((num % 2) !== 1) return num
+  return num+'.00'
+}
+module.exports = {
+  fixNum:fixNum,
+  twoLeftNum:twoLeftNum
+}

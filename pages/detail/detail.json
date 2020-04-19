@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "f-nav-bar":"/components/f-tab-control/f-tab-control",
+    "f-detail-swiper":"/components/f-swiper/f-swiper",
+    "detail-base-info":"./childCpn/detail-base-info/detail-base-info",
+    "detail-shop-info":"./childCpn/detail-shop-info/detail-shop-info",
+    "detail-goods-info":"./childCpn/detail-goods-info/detail-goods-info"
+  }
+}

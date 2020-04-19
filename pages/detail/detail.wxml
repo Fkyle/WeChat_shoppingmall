@@ -1,0 +1,8 @@
+<!--pages/detail/detail.wxml-->
+<view id="detail">
+  <f-nav-bar titles="{{titles}}"/>
+  <f-detail-swiper swiperList="{{topImages}}"/>
+  <detail-base-info goods="{{goods}}" />
+  <detail-shop-info shop="{{shop}}" />
+  <detail-goods-info detailInfo="{{detailInfo}}"/>
+</view>
