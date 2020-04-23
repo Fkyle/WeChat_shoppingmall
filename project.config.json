@@ -22,7 +22,7 @@
 			"outputPath": ""
 		}
 	},
-	"compileType": "miniprogram",
+	"compileType": "plugin",
 	"libVersion": "2.10.4",
 	"appid": "wx26ea088f4cab2634",
 	"projectname": "shoppingmall",

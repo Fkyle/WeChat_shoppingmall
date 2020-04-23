@@ -1,6 +1,6 @@
 <!--components/f-goods-item/f-goods-item.wxml-->
 <view class="goods-item">
-	<image class="image" src="{{goodItem.show.img}}" 
+	<image class="image" src="{{goodItem.show.img || goodItem.image}}" 
                        mode="widthFix" 
                        bind:tap="toDetail" 
                        data-iid="{{goodItem.iid}}"/>

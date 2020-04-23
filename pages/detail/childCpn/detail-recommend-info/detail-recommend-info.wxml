@@ -1,0 +1,11 @@
+<!--pages/detail/childCpn/detail-recommend-info/detail-recommend-info.wxml-->
+<view id="recommend-info">
+  <view class="rec-title">
+    <text>热门推荐</text>
+  </view>
+  <view class="rec-goods">
+    <block wx:for='{{recommendInfo}}' wx:key='index'>
+      <f-goods-item goodItem='{{item}}' class='rec-goods-item'/>
+    </block>
+  </view>
+</view>

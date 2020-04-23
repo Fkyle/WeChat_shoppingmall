@@ -1,0 +1,28 @@
+<!--pages/detail/childCpn/detail-params-info/detail-params-info.wxml-->
+<view id="params-info">
+    <view wx:for="{{paramsInfo.sizes}}" wx:key='index' 
+                  wx:for-item='item1' 
+                  wx:for-index='index'
+                  class="size-table">
+      <view wx:for="{{item1}}" wx:key='indey' 
+                  wx:for-item='item2' 
+                  wx:for-index='indey'
+                  class="size-tr">
+        <view wx:for="{{item2}}" wx:key='indez' 
+                  wx:for-item='item3' 
+                  wx:for-index='indez'
+                  class="size-td">
+          {{item3}}
+        </view>
+      </view>
+    </view>
+    <view class="info-params">
+      <view wx:for='{{paramsInfo.infos }}' wx:key='index' class="params-tr">
+        <text class="params-td">{{item.key}}</text>
+        <text class="params-td params-td-val">{{item.value}}</text>
+      </view>
+    </view>
+    <view class="info-img" wx:if="{{paramsInfo.image}}">
+      <image src="{{paramsInfo.iamge}}"></image>
+    </view>
+</view>

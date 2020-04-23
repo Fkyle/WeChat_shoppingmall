@@ -1,0 +1,47 @@
+/* pages/detail/childCpn/detail-comment-info/detail-comment-info.wxss */
+#comment-info{
+  padding:10rpx 24rpx;
+  color:#333;
+  border-bottom: 10rpx solid #f2f5f8
+}
+.comment-head{
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+.comment-title{
+  float: left;
+  font-size: 30rpx;
+}
+.comment-more{
+  float:right;
+  margin-right: 20rpx;
+  font-size: 26rpx;
+}
+.comment-user{
+  padding: 20rpx 30rpx;
+}
+.comment-user image{
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50%;
+}
+.comment-user text{
+  font-size: 30rpx;
+  position: relative;
+  top: -30rpx;
+  margin-left: 20rpx;
+}
+.comment-detail{
+  padding: 0 10rpx 30rpx;
+}
+.comment-detail text{
+  color: #777;
+  font-size: 28rpx;
+  line-height: 1.5rem;
+}
+.comment-other{
+  color: #999;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}

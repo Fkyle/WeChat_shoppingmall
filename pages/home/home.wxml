@@ -16,7 +16,7 @@
 <f-tab-control titles="{{titles}}" wx:if="{{isFixed}}"/>
 <!-- 商品数据展示 -->
 <view class="goods"> 
-  <block wx:for="{{goods[currentType].list}}">
+  <block wx:for="{{goods[currentType].list}}" :key='index'>
     <f-goods-item class="goods-item" 
                   goodItem="{{item}}" />
   </block>

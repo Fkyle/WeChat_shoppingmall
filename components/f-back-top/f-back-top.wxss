@@ -3,6 +3,7 @@
   position: fixed;
   right: 8rpx;
   bottom:8rpx;
+  z-index: 1
 }
 .backtop image{
   width: 88rpx;

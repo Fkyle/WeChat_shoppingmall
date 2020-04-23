@@ -1,0 +1,41 @@
+/* pages/detail/childCpn/detail-params-info/detail-params-info.wxss */
+#params-info{
+  padding:30rpx;
+  font-size: 30rpx;
+}
+.size-table,.info-params{
+  width: 100%;
+  color: #777
+}
+.size-tr{
+  width: 100%;
+  display: flex;
+  line-height: 84rpx;
+  justify-content: space-between;
+}
+.size-td{
+  padding:20rpx;
+  border-bottom: 2rpx solid #f2f5f8;
+  text-align: center;
+  width: 100%
+}
+.info-params{
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.params-tr{
+  width: 100%;
+  display: flex;
+  line-height: 84rpx;
+}
+.params-td{
+  padding: 20rpx;
+  border-bottom: 2rpx solid #f2f5f8;
+  /* text-align: left; */
+  width: 100%;
+}
+.params-td-val{
+  color: #ff5777
+}
+.info-img{
+    width:100%;
+  }
